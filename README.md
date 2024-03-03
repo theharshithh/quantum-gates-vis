@@ -6,26 +6,28 @@ This project provides visualizations for custom gates and specific quantum circu
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone git@github.com:theharshithh/quantum-gates-vis.git
+   cd quantum-gates-vis.git
    
 2. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
+   or
+   pip install .
 
-   Usage
-   
-3. Custom Gate and Rx-Type Gate Visualization
+## Usage: 
+
+1. Custom Gate and Rx-Type Gate Visualization
 Run the following command to visualize custom gates and Rx-type gates:
    ```bash
    python index.py
 
-4. Half Adder Visualization
+2. Half Adder Visualization
 Run the following command to visualize the half adder circuit:
    ```bash
    python half_adder.py
 
-5. Full Adder Visualization
+3. Full Adder Visualization
 Run the following command to visualize the full adder circuit:
    ```bash
    python full_adder.py
